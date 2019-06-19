@@ -26,7 +26,7 @@ URL’s:
 -	https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=<sticker>&outputsize=compact&apikey=<api_key> 
 -	https://ca.finance.yahoo.com/
 
-Goals
+### Goals
 1.	Extract stock data for five major companies using API
 2.	Transform the data using python pandas
 3.	Load the data to MySQL DB
@@ -34,24 +34,24 @@ Goals
 5.	Using Flask for navigation routes
 6.	User will be able to lookup company info details visually
 
-Specifications
+### Specifications
 Python, Pandas, MySQL, Json, HTML, JavaScript, Plotly, D3, Leaflet, bsoup, jupyter notebook, splinter (browser), request
 
-HTML 
+### HTML 
 ●	Leverages JavaScript manipulation of the record 
 ●	Leverage CSS for the styling
 ●	Leverage Bootstrap for layout canvas
 ●	Leverage plotly, leaflet for graphs and heatmaps
 
-Milestones
+### Milestones
 I.	Extraction
 Extraction of the Data occurred from Alpha Vantage API.  Import the following library modules such as requests, json, pandas, datetime, re (regex).
 
-Alpha Vantage API access guidance: 
+#### Alpha Vantage API access guidance: 
 ●	Obtain free API key  
 ●	Use daily adjusted Json API call
 
-Yahoo Finance Data scrape guidance: 
+#### Yahoo Finance Data scrape guidance: 
 ●	Beautiful soup
 ●	Chrome driver
 ●	Splinter (browser)
