@@ -25,6 +25,7 @@ The five selected companies are:
 URL’s:
 -	https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=<sticker>&outputsize=compact&apikey=<api_key> 
 -	https://ca.finance.yahoo.com/
+
 Goals
 1.	Extract stock data for five major companies using API
 2.	Transform the data using python pandas
@@ -41,11 +42,7 @@ HTML
 ●	Leverage CSS for the styling
 ●	Leverage Bootstrap for layout canvas
 ●	Leverage plotly, leaflet for graphs and heatmaps
- 
-Functional Diagram
- 
 
- 
 Milestones
 I.	Extraction
 Extraction of the Data occurred from Alpha Vantage API.  Import the following library modules such as requests, json, pandas, datetime, re (regex).
@@ -67,14 +64,3 @@ III.	Loading
 The loading of the data involves the creation RDS on MySQL from data frame.  A connection engine for data load to MySQL.  The data will be in three tables as follows
 Table 1 - Yahoo finance data 
 Table 2 - Alpha Vantage data 
-
-
-
-
-
-
-Twitter Stock Database Schema
-
-
-
-
