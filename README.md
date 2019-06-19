@@ -63,5 +63,7 @@ The following transformation was completed to the data.
 III.	Loading
 
 The loading of the data involves the creation RDS on MySQL from data frame.  A connection engine for data load to MySQL.  The data will be in three tables as follows
+
 Table 1 - Yahoo finance data 
+
 Table 2 - Alpha Vantage data 
