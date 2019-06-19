@@ -1,8 +1,5 @@
 # Stock Financial Data Visualization
 
-## Boot Camp Project III
-## University of Toronto SCS - Data Analytics
-
 ## Overview
 The objective of the project is to create Interactive visual representation of Five US Stock data. A user will be able to interactively view various information about these eight company which helps them make informative investment decisions.  
 The five selected companies are:
