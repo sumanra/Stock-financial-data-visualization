@@ -44,7 +44,9 @@ Python, Pandas, MySQL, Json, HTML, JavaScript, Plotly, D3, Leaflet, bsoup, jupyt
 ●	Leverage plotly, leaflet for graphs and heatmaps
 
 ### Milestones
+
 I.	Extraction
+
 Extraction of the Data occurred from Alpha Vantage API.  Import the following library modules such as requests, json, pandas, datetime, re (regex).
 
 #### Alpha Vantage API access guidance: 
@@ -57,10 +59,12 @@ Extraction of the Data occurred from Alpha Vantage API.  Import the following li
 ●	Splinter (browser)
 
 II.	Transformation
+
 The following transformation was completed to the data.
 ●	Drop Null values
 
 III.	Loading
+
 The loading of the data involves the creation RDS on MySQL from data frame.  A connection engine for data load to MySQL.  The data will be in three tables as follows
 Table 1 - Yahoo finance data 
 Table 2 - Alpha Vantage data 
