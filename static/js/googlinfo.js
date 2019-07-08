@@ -1,4 +1,4 @@
-  d3.csv("assets/csv/companyData_df.csv", function(d) {
+  d3.csv("/static/assets/csv/companyData_df.csv", function(d) {
     return {
       Ticker : d.Ticker,
       Company_Name : d.Company_Name,
@@ -20,17 +20,17 @@
       Handle: d.Handle,
     };
   }).then(function(data) {
-  console.log(data);
+  console.log(data[3].Description);
   
-  d3.select("#descr_info").insert("p").text(data[0].Description);
-  d3.select("#tweets").insert("p").text(data[0].Articles1);
-  d3.select("#tweets").insert("p").text(data[0].Articles2);
-  d3.select("#tweets").insert("p").text(data[0].Articles3);
-  d3.select("#tweets").insert("p").text(data[0].Articles4);
-  d3.select("#tweets").insert("p").text(data[0].Articles5);
+  d3.select("#descr_info").insert("p").text(data[3].Description);
+  d3.select("#tweets").insert("p").text(data[3].Articles1);
+  d3.select("#tweets").insert("p").text(data[3].Articles2);
+  d3.select("#tweets").insert("p").text(data[3].Articles3);
+  d3.select("#tweets").insert("p").text(data[3].Articles4);
+  d3.select("#tweets").insert("p").text(data[3].Articles5);
 
   // var divs = d3.select('#parent').selectAll('p').data(data).enter().append('div');
   
-  buildPlot("aapl");
+  buildPlot("googl");
 
   }); 

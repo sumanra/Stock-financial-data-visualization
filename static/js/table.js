@@ -3,7 +3,7 @@
 $(document).ready(function(){
  $('#load_data').click(function(){
   $.ajax({
-   url:"assets/csv/Final_stock_details.csv",
+   url:"/static/assets/csv/Final_stock_details.csv",
 //    url2:"assets/csv/CTSH_df.csv",
 //    url3:"assets/csv/FB_df.csv",
 //    url4:"assets/csv/GOOGL_df.csv",

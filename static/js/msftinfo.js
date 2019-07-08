@@ -1,4 +1,4 @@
-  d3.csv("assets/csv/companyData_df.csv", function(d) {
+  d3.csv("/static/assets/csv/companyData_df.csv", function(d) {
     return {
       Ticker : d.Ticker,
       Company_Name : d.Company_Name,

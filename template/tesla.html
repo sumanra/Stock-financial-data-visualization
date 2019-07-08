@@ -20,7 +20,7 @@
 
   
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -36,7 +36,7 @@
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-0">
           <!-- <i class="fas fa-laugh-wink"></i> -->
-          <img src="img/wall+street_tn.jpg"alt="wall_street-logo">
+          <img src="/static/img/wall+street_tn.jpg"alt="wall_street-logo">
         </div>
         <div class="sidebar-brand-text mx-3">Financials </div>
       </a>
@@ -210,8 +210,8 @@
           
           
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-primary font-weight-bold">Microsoft Corp. - Company Profile</h1>
-            <img src="img/microsoft-logo_tn.jpg" class="rounded mx-auto d-block" alt="Wall_Bull" style="width:5%;">
+            <h1 class="h3 mb-0 text-primary font-weight-bold">Tesla Inc.  - Company Profile</h1>
+            <img src="/static/img/tesla-logo_tn.jpg" class="rounded d-block" alt="Wall_Bull" style="width:5%;" align="right">
           </div>
 
         <!-- Illustrations -->
@@ -224,48 +224,41 @@
                 </div>
             </div>
         </div>
-
-      <!-- Content Row -->
-      <div class="row">  
-          <!-- Content Column -->
-          <div class="col-lg-12">
-            <div class="card shadow mb-4">
-              <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Video Stream</h6>
-          </div>
-          <div class="card-body iframe_video">
-              <iframe width="800" height="315" src="https://www.youtube.com/embed/iWVwhC_8aLY" 
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-                
-        <div class="row">
-
-            <!-- Area Chart -->
-            <div class="col-12">
+      
+        <!-- Content Row -->
+        <div class="row">  
+            <!-- Content Column -->
+            <div class="col-lg-12">
               <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">microsoft Daily Stock Chart</h6>
+                <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Video Stream</h6>
+            </div>
+            <div class="card-body iframe_video">
+                <iframe width="800" height="315" src="https://www.youtube.com/embed/T2rbdMlmpYY" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+                
+        <!-- Content Row -->
+        <div class="row">  
+            <!-- Content Column -->
+            <div class="col-lg-12">
+             <div class="card shadow mb-4">
+               <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Tesla Daily Stock Chart</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                     </a>
-                    <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Lines</a>
-                      <a class="dropdown-item" href="#">Candle stick</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Volumes</a>
-                    </div> -->
+
                   </div>
                 </div>
-                <!-- Card Body -->
-                <div class="col-lg-12">
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
+                  <!-- Card Body -->
+                  <div class="col-lg-12">
+                      <div class="card shadow mb-4">
+                          <div class="card-header py-3">
                     <div id="plot"></div>
-
+                    <script src="/static/js/plot_t.js"></script>
                   </div>
                 </div>
               </div>
@@ -284,7 +277,7 @@
               <!-- Project Card Example -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary"> microsoft Twitter News!</h6>
+                  <h6 class="m-0 font-weight-bold text-primary"> Tesla Twitter News!</h6>
                 </div>
                 <div class="card-body">
                     <div id="tweets">
@@ -321,9 +314,8 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-  <script src="js/plot_t.js"></script>
-  <script src="js/msftinfo.js"></script>
+  <script src="/static/js/sb-admin-2.min.js"></script>
+  <script src="/static/js/tslainfo.js"></script>
 
   <!-- Page level plugins -->
   <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
